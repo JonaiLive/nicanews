@@ -38,6 +38,33 @@ button {
 
 
 h1 {
+  padding-top: 20px;
   text-align: center;
 }
 
+img {
+  width: 300px;
+
+}
+
+.articles {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.artTitle {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+button {
+  background-color: #4b4b58;
+  color: white;
+  border-radius: 5px;
+  font-family: sans-serif;
+  padding: 10px;
+
+}
