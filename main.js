@@ -1,4 +1,3 @@
-
 window.addEventListener("load", () => {
   var url =
     "https://newsapi.org/v2/everything?" +
@@ -6,7 +5,7 @@ window.addEventListener("load", () => {
     "from=2019-04-04&" +
     "sortBy=publishedAt&" +
     "language=es&" +
-    "apiKey=myKey";
+    "apiKey=fad91accfe304ef4aa33587550ada46c";
 
   var req = new Request(url);
 
@@ -17,13 +16,10 @@ window.addEventListener("load", () => {
       let output = "";
       data.articles.forEach(function(articles) {
         output += `
-      <div class="articles">
+        <div class="articles">
         <ul>
-          <li><p class="artTitle">${articles.title}</p></li>
-          <li><img src="${articles.urlToImage}"></li>
-          // <li><a href="${
-            articles.url
-          }"><button type="button">Ver Articulo</button></a></li>
+          <li class="artTitle">${articles.title}</li>
+          <li class="links"><a href="${articles.url}"</a></li>
 
           <br>
           </ul>
