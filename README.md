@@ -9,4 +9,4 @@ I thought I could write a program that would use a news API to aggregate all new
 Thank you to https://newsapi.org/ for providing the API.
 
 
-If you have any questions or have any ideas on how I can improve with please let me know. 
+If you have any questions or have any ideas on how I can improve it please let me know. 
